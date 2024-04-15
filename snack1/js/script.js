@@ -28,3 +28,7 @@ if (bicicletta.peso < biciLeggera.peso) {
 }
 
 })
+
+// stampare in html 
+const risultatoDiv = document.getElementById('risultato');
+risultatoDiv.innerHTML = `La più leggera: ${biciLeggera.nome}, kg: ${biciLeggera.peso}`

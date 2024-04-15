@@ -16,7 +16,8 @@ Usiamo i nuovi metodi degli array foreach o filter.
 
 
 
-
+Snack 1
 - Creare un array di oggetti, con oggetto bicicletta proprietà nome e peso.
 - Trovare la bicicletta con il peso minore nell'array.
-- Stampare i dettagli della bicicletta più leggera utilizzando il destructuring e i template literals.
+- Stampare in HTML.
+
