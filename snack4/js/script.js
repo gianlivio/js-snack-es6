@@ -9,11 +9,11 @@ const persone = [
   const permessoGuida = persone.map(persona => {
     let scrivi;
     if (persona.età >= 18) {
-      scrivi = 'può guidare.';
+      return 'può guidare.';
     } else {
-      scrivi = 'non può guidare.';
+      return 'non può guidare.';
     }
-    return `${persona.nome} ${persona.cognome} ${messaggio}`;
+   
   });
-  
+
   console.log(permessoGuida);
